@@ -10,9 +10,9 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int dia = sc.nextInt();
-        int mes = sc.nextInt();
-        int year = sc.nextInt();
+        System.out.println("Día:");int dia = sc.nextInt();
+        System.out.println("Mes:");int mes = sc.nextInt();
+        System.out.println("Año:");int year = sc.nextInt();
         sc.close();
 
         if (mes == 1 && dia > 0 && dia <= 31 && year <= 2025 && year > 0) {
