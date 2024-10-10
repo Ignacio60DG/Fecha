@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -9,6 +8,9 @@ public class Main {
         System.out.println("Detector de fechas, escribe el día, el mes y el año en ese orden y te dirá si la fecha es correcta");
 
         Scanner sc = new Scanner(System.in);
+
+        //boolean blnFechValida
+        //int intAnno=scEntrada.nextInt();
 
         System.out.println("Día:");int dia = sc.nextInt();
         System.out.println("Mes:");int mes = sc.nextInt();
@@ -44,3 +46,21 @@ public class Main {
         }
     }
 }
+
+/* if(intAnno==0) {
+      blnFechaValidad = false;
+   }else{
+   if (mes == 2 (dia>=dia && dia<=28)){
+   blnFechaValida= true
+   }else if((mes == 4 || mes == 6 || mes == 9 || mes == 10 || mes==12...) && ((dia >=1) && (dia<=31))){
+   blnFechaValida= true;
+   }else{
+   blnFechaValida= false;
+   }
+
+   if(blnFechaValida=true) {
+   System.out.print("Fecha vailda. Fecha:" " + dia+ " "+mes+" "+año );
+   }else{
+   Syst...("fecha invalida");
+   }
+ */
